@@ -1,23 +1,59 @@
 body{background-color: rgb(216, 231, 226);
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-size: 20px;}   
+h2{ float: left;
+font-size: 39px;
+margin-top: 71px;
+margin-left: 95px;}
 #coordonné{
-     background-color: rgb(26, 134, 138);
-    }
 
+     
+     background-color:rgb(14, 61, 65);
+     height:200px;
+     text-align: justify;
+    }
+#compétences{
+    
+        background-color:rgb(22, 109, 109);
+         width:30%;
+         height:800px;
+         text-align: left;
+        }
+#contenu{ 
+        float:right;
+        width: 60%;
+	    height:600px;
+        background-color:rgb(216, 231, 226);
+        margin-left:"20px"
+           }  
+    .span{margin-top:200px;
+        margin-left: 167px;
+    }
+     .col{
+         display: flex
+     }
     h1{ position: center;
-        font-family:cursive;}
+        font-family:cursive;
+      }
 
     h3{ 
         font-weight: bold;
         font-style: oblique;
-        font-family: Arial, Helvetica, sans-serif;}
+        font-family: cursive;
+        font-size:1.5em;}
 
 
     img {
-        height:180px;
-        width: 150px;
-        position:absolute;
-        top: 20px;
-        right: 10px;
+        height: 220px;
+        width: 200px;
+        position: absolute;
+        top: 9px;
+        right: 700px;
+        border-radius: 50%;
+    }
+
+    p{position:absolute;
+     top:30px;
+     right:150px;
     }
 
